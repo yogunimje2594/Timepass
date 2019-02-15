@@ -19,6 +19,7 @@ public class Test {
 			String id=(String)ses.save(emp);
 			System.out.println("Here is your id "+id);
 			System.out.println("Finally Completed");
+			System.out.println("Done with custom generator");
 			tx.commit();
 		} catch (Exception e) {
 			tx.rollback();
