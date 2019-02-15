@@ -18,6 +18,7 @@ public class Test {
 			emp.setEmpSal(12000);
 			String id=(String)ses.save(emp);
 			System.out.println("Here is your id "+id);
+			System.out.println("Finally Completed");
 			tx.commit();
 		} catch (Exception e) {
 			tx.rollback();
